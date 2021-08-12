@@ -1,0 +1,59 @@
+.lienal{
+    display: flex;
+    box-sizing: border-box;
+}
+
+
+div{
+    padding: 5px 0;
+}
+
+.titular{
+    display: flex;
+    width: 60%;
+    padding: 0 5px;
+}
+.peso{
+
+    width: 20%;
+    padding: 0 5px;
+}
+.ancho{
+
+    width: 20%;
+    padding: 0 5px;
+}
+.alto{
+
+    width: 20%;
+    padding: 0 5px;
+}
+.largo{
+
+    width: 20%;
+    padding: 0 5px;
+}
+.pais{
+
+    width: 20%;
+    padding: 0 5px;
+}
+.region{
+
+    width: 20%;
+    padding: 0 5px;
+}
+.total{
+
+    width: 20%;
+    font-weight: bolder;
+    color:darkorange;
+    padding: 0 5px;
+}
+.boton{
+  
+    width: 35%;
+    padding: 0 5px;
+    text-align: center;
+    box-sizing: border-box;
+}

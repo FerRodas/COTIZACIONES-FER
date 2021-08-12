@@ -1,0 +1,30 @@
+<div class="lienal">
+    <div class="titular">
+        {{item.titular}}
+    </div>
+    <div class="peso">
+        {{item.peso}}
+    </div>
+    <div class="ancho">
+        {{item.ancho}}
+    </div>
+    <div class="alto">
+        {{item.alto}}
+    </div>
+    <div class="largo">
+        {{item.largo}}
+    </div>
+    <div class="pais">
+        {{item.pais}}
+    </div>    
+    <div class="region">
+        {{item.region}}
+    </div>  
+    <div class="total">
+        {{((item.peso*3)+1.6*item.alto*item.ancho*0.5*item.peso) |currency}}
+    </div>
+
+    <div class="boton">
+        <button>Eliminar cotizacion</button>
+    </div>
+</div>
